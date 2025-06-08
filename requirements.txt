@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-streamlit
-streamlit-option-menu
-pickle-mixin
-streamlit==1.32.0
-streamlit-option-menu==0.3.2
-scikit-learn==1.4.0
-joblib==1.3.2
-numpy==1.26.0
-pandas==2.1.3
-pickle-mixin==1.0.2
-matplotlib==3.8.0
-seaborn==0.13.0
-scikit-learn==1.4.0  
-scikit-learn==1.0.2 
-sklearn
-sklearn.model_selection
-sklearn.linear_model
-=======
 streamlit>=1.32.0
 streamlit-option-menu>=0.3.2
 scikit-learn>=1.4.2
@@ -25,4 +6,3 @@ numpy>=1.26.4
 pandas>=2.2.2
 matplotlib>=3.8.4
 seaborn>=0.13.2
->>>>>>> 2a8c828 (Project ready to deploy)
