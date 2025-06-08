@@ -11,7 +11,8 @@ https://disease0detection.streamlit.app/
 
 ![image](https://github.com/user-attachments/assets/e516cc71-b1b4-480d-b8e2-8e5cac1d21a7)
 
-![image](https://github.com/user-attachments/assets/df00d78f-874f-426b-be0f-97dc1b5fa0c7)
+![image](https://github.com/user-attachments/assets/4bab0059-d560-4a15-8c30-18e61658e9b6)
+
 
 ![image](https://github.com/user-attachments/assets/72271a03-bc51-433e-a52a-06d3f375820e)
 
