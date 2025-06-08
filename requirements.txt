@@ -13,3 +13,5 @@ seaborn==0.13.0
 scikit-learn==1.4.0  
 scikit-learn==1.0.2 
 sklearn
+sklearn.model_selection
+sklearn.linear_model
