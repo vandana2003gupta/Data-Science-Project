@@ -84,14 +84,14 @@ if selected == 'Welcome':
     st.write("""This application detects diseases like Diabetes, Heart and Parkinson's 
     using Machine Learning, providing early health risk detection with ML models
     """)
-    st.image("img1.webp", use_container_width=True)
+    st.image("Img1.webp", use_container_width=True)
 
 # Autism Page
 elif selected == 'Autism':
     set_bg_from_local('bg.jpeg')
     st.markdown("<h1>Autism Detection</h1>", unsafe_allow_html=True)
     st.write("Note - Autism section is under development.")
-    st.image("img2.jpg", use_container_width=True)
+    st.image("Img2.jpg", use_container_width=True)
 
 # Diabetes Prediction
 elif selected == 'Diabetes Prediction':
