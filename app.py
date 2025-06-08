@@ -215,6 +215,7 @@ elif selected == 'Yoga Posture Corrector':
     st.write("Click below to open Urban Yogi live posture correction tool.")
     if st.button("Open Urban Yogi Pose Corrector"):
         webbrowser.open_new_tab("https://urban-yogi-main.vercel.app/")
+        st.components.v1.iframe("https://urban-yogi-main.vercel.app", height=600)
     st.image("Urban-Yogi-Main/img6.png", use_container_width=True)
 
 # Feedback
