@@ -115,7 +115,7 @@ elif selected == 'Diabetes Prediction':
                           float(skin_thickness), float(insulin), float(bmi),
                           float(diabetes_pedigree), float(age)]
             result = diabetes_model.predict([input_data])[0]
-            st.success("The person is not diabetic." if result == 0 else "The person is diabetic.")
+            st.success("The person is not diabetic." if result == 1 else "The person is diabetic.")
         except Exception as e:
             st.error(f"Error: {str(e)}. Please enter valid numbers")
     st.image("Diseases/Diabetes-Prediction-EDA/img3.jpg", use_container_width=True)
@@ -157,7 +157,7 @@ elif selected == 'Heart Disease Prediction':
                 slope, float(ca), thal
             ]
             result = heart_model.predict([input_data])[0]
-            st.success("The person does not have heart disease." if result == 0 else "The person has heart disease.")
+            st.success("The person does not have heart disease." if result == 1 else "The person has heart disease.")
         except Exception as e:
             st.error(f"Input Error: {str(e)}")
     st.image("Diseases/Heart-Disease-Prediction/img4.png", use_container_width=True)
