@@ -72,8 +72,8 @@ except Exception as e:
 # Sidebar
 with st.sidebar:
     selected = option_menu('Diseases',
-                         ['Welcome', 'Autism', 'Diabetes Prediction',
-                          'Heart Disease Prediction', 'Parkinsons Prediction',
+                         ['Welcome', 'Autism', 'Diabetes Detection',
+                          'Heart Disease Detection', 'Parkinsons Detection',
                           'Yoga Posture Corrector', 'Feedback'],
                          default_index=0)
 
@@ -94,7 +94,7 @@ elif selected == 'Autism':
     st.image("Img2.jpg", use_container_width=True)
 
 # Diabetes Prediction
-elif selected == 'Diabetes Prediction':
+elif selected == 'Diabetes Detection':
     set_bg_from_local('bg.jpeg')
     st.markdown("<h1>Diabetes Detection using ML</h1>", unsafe_allow_html=True)
     st.write("Detect whether you are diabetic or not based on medical inputs")
@@ -121,7 +121,7 @@ elif selected == 'Diabetes Prediction':
     st.image("Diseases/Diabetes-Prediction-EDA/img3.jpg", use_container_width=True)
 
 # Heart Disease Prediction
-elif selected == 'Heart Disease Prediction':
+elif selected == 'Heart Disease Detection':
     set_bg_from_local('bg.jpeg')
     st.markdown("<h1>Heart Disease Prediction using ML</h1>", unsafe_allow_html=True)
     st.write("Detect whether you have heart disease or not, based on health parameters")
@@ -163,7 +163,7 @@ elif selected == 'Heart Disease Prediction':
     st.image("Diseases/Heart-Disease-Prediction/img4.png", use_container_width=True)
 
 # Parkinson’s Disease
-elif selected == 'Parkinsons Prediction':
+elif selected == 'Parkinsons Detection':
     set_bg_from_local('bg.jpeg')
     st.markdown("<h1>Parkinson's Disease Prediction</h1>", unsafe_allow_html=True)
     st.write("Detect whether you have Parkinson's Disease or not, based on provided metrics.")
