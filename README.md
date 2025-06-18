@@ -1,7 +1,8 @@
 # Data-Science-Project
 
 Streamlit Deployed link - 
-https://disease0detection.streamlit.app/
+https://disease0detection.streamlit.app/ 
+Note - Please use Light theme to check this app.
 
 ![image](https://github.com/user-attachments/assets/6ec92241-1635-4953-bb97-15d8b8efdd85)
 
