@@ -48,10 +48,11 @@ This feature guides users to correct yoga postures through a pose detection syst
 🔗 Access Yoga Posture App: [Urban Yogi Pose App] (https://urban-yogi-main.vercel.app)
 
 ## Installation
-git clone https://github.com/vandana2003gupta/Data-Science-Project.git
-cd Data-Science-Project
-pip install -r requirements.txt
-streamlit run app.py
+
+1. git clone https://github.com/vandana2003gupta/Data-Science-Project.git
+2. cd Data-Science-Project
+3. pip install -r requirements.txt
+4. streamlit run app.py
 
 # Features
 - Real-time disease prediction with medical input
