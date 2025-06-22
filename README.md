@@ -61,12 +61,12 @@ streamlit run app.py
 
 # Tech Stack Used
 
-Python
-Streamlit
-Scikit-learn
-Pandas, NumPy
-Pickle (model serialization)
-HTML/CSS for custom UI styling
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas, NumPy
+- Pickle (model serialization)
+- HTML/CSS for custom UI styling
 
 # License
 This project is licensed under the MIT License.
